@@ -1,4 +1,4 @@
-#Projet_cloud_modern_data_stack : PostgreSQL → S3 → Snowflake → dbt → Airflow → Power BI
+## Projet_cloud_modern_data_stack : PostgreSQL → S3 → Snowflake → dbt → Airflow → Power BI
 
 ## Objectifs
 Mettre en place un pipeline Cloud complet reproduisant l'architecture du Modern Data Stack :
