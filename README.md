@@ -1,4 +1,4 @@
-# TP Cloud – Modern Data Stack : PostgreSQL → S3 → Snowflake → dbt → Airflow → Power BI
+#Projet_cloud_modern_data_stack : PostgreSQL → S3 → Snowflake → dbt → Airflow → Power BI
 
 ## Objectifs
 Mettre en place un pipeline Cloud complet reproduisant l'architecture du Modern Data Stack :
@@ -18,13 +18,10 @@ Mettre en place un pipeline Cloud complet reproduisant l'architecture du Modern 
 - Power BI (visualisation et reporting)
 
 ## Structure du dépôt
-- **/postgres/** : scripts SQL de création de tables et génération de données sur PostgreSQL, scripts ou notebook d’export vers CSV/S3
-- **/s3/** : instructions/configuration bucket S3, exemples de commandes, captures d’écran d’upload
-- **/snowflake/** : DDL Snowflake, étapes de chargement, configuration connexion
+- **/sql/** : scripts SQL de création de tables et génération de données sur PostgreSQL, scripts ou notebook d’export vers CSV/S3
+- **/scripts/** : scripts SQL de génération de données sur PostgreSQL, et d’export vers CSV/S3
 - **/dbt/** : projet dbt complet (modèles, seeds, analyses)
-- **/airflow/** : DAGs Airflow, documentation de connexion/tuto d’exécution
-- **/bi/** : fichiers Power BI et screenshots des dashboards
-- **/schema/** : diagrammes d’architecture et schémas du pipeline
+- **/powerbi/** : fichiers Power BI et screenshots des dashboards
 - **rapport.pdf** : rapport détaillant la démarche, choix, résultats, problèmes/dépannage éventuels
 
 ## Instructions pour exécuter le projet
